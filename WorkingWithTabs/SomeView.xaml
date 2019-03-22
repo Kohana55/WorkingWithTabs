@@ -48,10 +48,10 @@
 
 
 
-            <TabItem Header="MISSION" FontWeight="Bold" FontSize="18" Margin="10,0,0,0">
+            <TabItem Header="Transactions" FontWeight="Bold" FontSize="18" Margin="10,0,0,0">
             </TabItem>
-            <TabItem Header="ERRORS" FontWeight="Bold" FontSize="18"/>
-            <TabItem Header="LOG" FontWeight="Bold" FontSize="18"/>
+            <TabItem Header="Block Chain" FontWeight="Bold" FontSize="18"/>
+            <TabItem Header="TCP/IP" FontWeight="Bold" FontSize="18"/>
         </TabControl>
     </Grid>
 </UserControl>
