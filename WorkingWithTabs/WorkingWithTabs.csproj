@@ -55,13 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="InsideTabView1.xaml.cs">
-      <DependentUpon>InsideTabView1.xaml</DependentUpon>
+    <Compile Include="TabOneView.xaml.cs">
+      <DependentUpon>TabOneView.xaml</DependentUpon>
     </Compile>
     <Compile Include="TabView.xaml.cs">
       <DependentUpon>TabView.xaml</DependentUpon>
     </Compile>
-    <Page Include="InsideTabView1.xaml">
+    <Page Include="TabResourceDictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TabOneView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

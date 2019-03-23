@@ -32,15 +32,5 @@ namespace WorkingWithTabs
             // Begin dragging the window
             this.DragMove();
         }
-
-        private void Trigger_MouseEnter(object sender, MouseEventArgs e)
-        {
-
-        }
-
-        private void Trigger_MouseLeave(object sender, MouseEventArgs e)
-        {
-
-        }
     }
 }

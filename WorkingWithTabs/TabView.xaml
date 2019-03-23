@@ -17,18 +17,18 @@
         <TabControl Grid.Row="1">
             <TabItem Style="{StaticResource TabStyle}">
                 <TabItem.Header>
-                    <TextBlock Text="Transactions" FontSize="18" FontWeight="Bold"/>
+                    <TextBlock Text="Tab 1" FontSize="16" FontWeight="Bold"/>
                 </TabItem.Header>
-                <local:InsideTabView1/>
+                <local:TabOneView/>
             </TabItem>
             <TabItem Style="{StaticResource TabStyle}">
                 <TabItem.Header>
-                    <TextBlock Text="Block Chain" FontSize="18" FontWeight="Bold"/>
+                    <TextBlock Text="Tab 2" FontSize="16" FontWeight="Bold"/>
                 </TabItem.Header>
             </TabItem>
             <TabItem Style="{StaticResource TabStyle}">
                 <TabItem.Header>
-                    <TextBlock Text="TCP/IP" FontSize="18" FontWeight="Bold"/>
+                    <TextBlock Text="Tab 3" FontSize="16" FontWeight="Bold"/>
                 </TabItem.Header>
             </TabItem>
         </TabControl>

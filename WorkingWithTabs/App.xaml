@@ -4,31 +4,8 @@
              xmlns:local="clr-namespace:WorkingWithTabs"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        
-        <!--Tab Style-->
-        <Style TargetType="TabItem" x:Key="TabStyle">
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="TabItem">
-                        <Grid Name="Panel" Background="Transparent">
-                            <ContentPresenter x:Name="ContentSite"
-                                    VerticalAlignment="Center"
-                                    HorizontalAlignment="Center"
-                                    ContentSource="Header"
-                                    Margin="10,0,10,5"/>
-                        </Grid>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsSelected" Value="True">
-                                <Setter Property="Foreground" Value="Black"/>
-                            </Trigger>
-                            <Trigger Property="IsSelected" Value="False">
-                                <Setter Property="Foreground" Value="White"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
+
+        <ResourceDictionary Source="TabResourceDictionary.xaml"/>
 
     </Application.Resources>
 </Application>

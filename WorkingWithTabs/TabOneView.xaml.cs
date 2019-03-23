@@ -18,9 +18,9 @@ namespace WorkingWithTabs
     /// <summary>
     /// Interaction logic for InsideTabView1.xaml
     /// </summary>
-    public partial class InsideTabView1 : UserControl
+    public partial class TabOneView : UserControl
     {
-        public InsideTabView1()
+        public TabOneView()
         {
             InitializeComponent();
         }
