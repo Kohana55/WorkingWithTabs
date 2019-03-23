@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace WorkingWithTabs
 {
     /// <summary>
-    /// Interaction logic for SomeView.xaml
+    /// Interaction logic for InsideTabView1.xaml
     /// </summary>
-    public partial class SomeView : UserControl
+    public partial class InsideTabView1 : UserControl
     {
-        public SomeView()
+        public InsideTabView1()
         {
             InitializeComponent();
         }

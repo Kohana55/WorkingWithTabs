@@ -9,6 +9,6 @@
         WindowStyle="None"
         ResizeMode="NoResize">
     <Grid>
-        <local:SomeView/>
+        <local:TabView/>
     </Grid>
 </Window>
